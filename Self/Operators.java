@@ -1,6 +1,6 @@
 package Self;
 
-public class air_operators {
+public class Operators {
     
     public static void main(String[] args){
         // operators
@@ -22,7 +22,7 @@ public class air_operators {
         System.out.println(div);
         System.out.println(mod);
 
-        // assigning operator
+        // Assignment operator
         
     }
 }
