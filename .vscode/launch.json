@@ -1,0 +1,107 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    
+    /*{
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },*/
+    {
+      "name": "Java",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [".", "${fileDirname}"]
+    },
+    {
+      "name": "Java Console App",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [".", "${fileDirname}"],
+      "externalConsole": true
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Array",
+      "request": "launch",
+      "mainClass": "Self.Array",
+      "projectName": "Java-Program_56f75a53"
+    },
+    {
+      "type": "java",
+      "name": "Launch Hello_World",
+      "request": "launch",
+      "mainClass": "Self.Hello_World",
+      "projectName": "Java-Program_56f75a53"
+    },
+    {
+      "type": "java",
+      "name": "Launch Strings",
+      "request": "launch",
+      "mainClass": "Self.Strings",
+      "projectName": "Java-Program_56f75a53"
+    },
+    {
+      "type": "java",
+      "name": "Launch Types",
+      "request": "launch",
+      "mainClass": "Self.Types",
+      "projectName": "Java-Program_56f75a53"
+    },
+    {
+      "type": "java",
+      "name": "Launch Variables",
+      "request": "launch",
+      "mainClass": "Self.Variables",
+      "projectName": "Java-Program_56f75a53"
+    },
+    {
+      "type": "java",
+      "name": "Launch air_operators",
+      "request": "launch",
+      "mainClass": "Self.air_operators",
+      "projectName": "Java-Program_56f75a53"
+    },
+    {
+      "type": "java",
+      "name": "Launch casting",
+      "request": "launch",
+      "mainClass": "Self.casting",
+      "projectName": "Java-Program_56f75a53"
+    },
+    {
+      "type": "java",
+      "name": "Launch constant",
+      "request": "launch",
+      "mainClass": "Self.constant",
+      "projectName": "Java-Program_56f75a53"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "test",
+      "projectName": "Java-Program_56f75a53"
+    }
+  ]
+}
