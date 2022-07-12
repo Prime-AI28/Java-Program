@@ -1,28 +1,34 @@
 package Self;
 
 public class Operators {
-    
-    public static void main(String[] args){
-        // operators
 
-        // arithematic Operators
-        int a = 5;
-        int b = 3;
-        int sum = a+b;
-        int diff = a-b;
-        int mul = a*b;
-        double div = (double)a/b;
-        int mod = a%b;
+  public static void main(String[] args) {
+    // operators
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(sum);
-        System.out.println(diff);
-        System.out.println(mul);
-        System.out.println(div);
-        System.out.println(mod);
+    // arithematic Operators
+    int a = 5;
+    int b = 3;
+    int sum = a + b;
+    int diff = a - b;
+    int mul = a * b;
+    double div = (double) a / b;
+    int mod = a % b;
 
-        // Assignment operator
-        
-    }
+    System.out.println(a);
+    System.out.println(b);
+    System.out.println(sum);
+    System.out.println(diff);
+    System.out.println(mul);
+    System.out.println(div);
+    System.out.println(mod);
+
+    // Assignment operator
+    // Unary operator
+    int numb = 1;
+    System.out.println(numb++);
+    System.out.println(numb);
+
+    System.out.println(++numb);
+    System.out.println(numb);
+  }
 }
