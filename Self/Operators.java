@@ -30,5 +30,14 @@ public class Operators {
 
     System.out.println(++numb);
     System.out.println(numb);
+
+    // Comparison Operators
+    // a == b (use to check equaltiy)
+    // a != b (use to verfiy not equality)
+    // a < b (less than)
+    // a > b (greater than)
+    // a <= b ( less than equal to)
+    // a >= b ( greater than equal to)
+
   }
 }
