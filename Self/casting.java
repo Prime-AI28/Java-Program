@@ -6,7 +6,7 @@ public class casting {
         //Casting
         // example of Implicit casting
         double price = 100.0;
-        double fprice = 18;
+        double fprice = price + 18;
         System.out.println(fprice);
 
         /*

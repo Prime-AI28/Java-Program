@@ -2,7 +2,7 @@ package Self;
 
 import java.util.Scanner;
 
-public class Conditions {
+public class Conditions_ifelse {
 
     public static void main(String[] args){
     // conditional stt

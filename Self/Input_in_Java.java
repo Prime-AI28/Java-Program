@@ -1,6 +1,6 @@
 package Self;
 
-import java.net.SocketPermission;
+//import java.net.SocketPermission;
 import java.util.Scanner;
 
 public class Input_in_Java {

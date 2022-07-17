@@ -5,6 +5,7 @@ public class constant {
         //use final to make variables constant
         // use uppercase to define constant :)
         final float PI = 3.14F;
+        System.out.println(PI);
 
     }
     
